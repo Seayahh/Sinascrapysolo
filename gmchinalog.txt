@@ -1,0 +1,31 @@
+start from 2017-02-14 14:18:15
+end at 2017-02-15 10:23:50
+
+2017-02-15 10:25:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-02-15 10:25:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 373,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 2,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 371,
+ 'downloader/request_bytes': 53028057,
+ 'downloader/request_count': 29196,
+ 'downloader/request_method_count/GET': 29196,
+ 'downloader/response_bytes': 87503967,
+ 'downloader/response_count': 28823,
+ 'downloader/response_status_count/200': 28810,
+ 'downloader/response_status_count/404': 10,
+ 'downloader/response_status_count/502': 3,
+ 'dupefilter/filtered': 3257,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 2, 15, 2, 25, 28, 311000),
+ 'item_scraped_count': 16716,
+ 'log_count/DEBUG': 45977,
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 1263,
+ 'request_depth_max': 193,
+ 'response_received_count': 28800,
+ 'scheduler/dequeued': 29196,
+ 'scheduler/dequeued/memory': 29196,
+ 'scheduler/enqueued': 29196,
+ 'scheduler/enqueued/memory': 29196,
+ 'start_time': datetime.datetime(2017, 2, 14, 6, 18, 15, 67000)}
+2017-02-15 10:25:28 [scrapy.core.engine] INFO: Spider closed (finished)
